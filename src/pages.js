@@ -5,7 +5,7 @@ import WorldImage from "./images/website-scan.svg";
 import ShearchHashImage from "./images/VT_search_hash.svg";
 import axios, { post } from 'axios';
 
-// // firetest2012 API Key  7ae6182b6f7559e6cb59aaa80f11ae09446415f2b464921afef5663bdf5be1e4
+
 
 //yshavat89 API key -  
 
@@ -116,8 +116,7 @@ export function File(){
     const [fileIn, setFileIn] = useState(null);
     const [vtData, setVtData] = useState(null);
     
-    // UPLOAD FILE NOT WORKING !!!!
-    //const uploadToVT = function(fileIn){};
+
     const uploadToVT = function(fileIn){
 
         if(fileIn === null )
